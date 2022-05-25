@@ -1,0 +1,23 @@
+import java.util.Scanner;
+
+public class Ejercicio_2_funciones {
+
+    public static void main(String[] args) {
+       
+        numeros();
+        
+
+        
+    }
+
+    public static void numeros(){
+        Scanner scan = new Scanner(System.in);
+        int a = scan.nextInt();
+        int b = scan.nextInt();
+        int c = scan.nextInt();
+        System.out.println("El primer nro ingresado es: " + a);
+        System.out.println("El segundo nro ingresado es: " + b);
+        System.out.println("El tercer nro ingresado es: " + c);
+        scan.close();
+    }
+}
